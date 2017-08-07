@@ -11,6 +11,8 @@ import Post from './post.vue'
 Vue.component('Post', Post)
 import Page from './page.vue'
 Vue.component('Page', Page)
+import About from './about.vue'
+Vue.component('about', About)
 import Header from './theme-header.vue'
 Vue.component('theme-header', Header)
 import Footer from './theme-footer.vue'

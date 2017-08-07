@@ -17,6 +17,7 @@ function rest_theme_scripts() {
 		'nonce'     => wp_create_nonce( 'wp_rest' ),
 		'site_name' => get_bloginfo( 'name' ),
 		'routes'    => rest_theme_routes(),
+		'some_var' 	=> 'some variable from local',
 	) );
 }
 
